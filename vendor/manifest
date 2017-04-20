@@ -428,6 +428,38 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/statsd/client",
+			"repository": "https://github.com/statsd/client",
+			"vcs": "git",
+			"revision": "dd7e89e9895a694d75f528a5b72e6a95e6457a11",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/statsd/client-interface",
+			"repository": "https://github.com/statsd/client-interface",
+			"vcs": "git",
+			"revision": "d354afbbdb2b1d11cddb76c59de22d39a1f5376b",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/statsd/client-namespace",
+			"repository": "https://github.com/statsd/client-namespace",
+			"vcs": "git",
+			"revision": "25f6849d71a7702f66dcde2b13244bc96694cb2b",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/visionmedia/go-debug",
+			"repository": "https://github.com/visionmedia/go-debug",
+			"vcs": "git",
+			"revision": "ff4a55a20a86994118644bbddc6a216da193cc13",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "golang.org/x/net/context",
 			"repository": "https://go.googlesource.com/net",
 			"vcs": "git",

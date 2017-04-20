@@ -26,8 +26,8 @@ func main() {
 		panic(err)
 	}
 
+	docker.C = docker.NewClient(dockerURI)
 	c := collector.New(namespace.New(client, statsdPrefix))
-	c.Containers = docker.GetContainers(dockerURI)
 	c.Start()
 
 	<-sigTerm
